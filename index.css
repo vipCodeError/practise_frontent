@@ -34,11 +34,12 @@ body {
   box-shadow: -3px -8px 8px -7px rgba(189, 189, 189, 1);
 }
 
-.logo_text > h4 {
+.logo_text {
   color: black;
   font-size: 19px;
   font-weight: 600;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .icons_color{
@@ -75,6 +76,11 @@ body {
 .left-bar-pad {
   padding-left: 20px;
   padding-right: 10px;
+} 
+
+.top-bar-pad {
+  padding-top: 20px;
+  padding-bottom: 10px;
 } 
 
 .section1 {
@@ -155,10 +161,15 @@ body {
 }
 
 .upgrade_container{
-  width: 25%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+.vertical-divider {
+  border-right: 1px solid #c9c9c9;
+  height: 100%;
 }
 
 /* padding left css*/
