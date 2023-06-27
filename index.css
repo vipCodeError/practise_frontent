@@ -172,8 +172,23 @@ body {
   height: 100%;
 }
 
+
+/* Task & Project Plus Icon */
+
 .space-between-element {
   justify-content: space-between;
+}
+
+.plus_icon img{
+  width: 8px;
+  margin-bottom: 9px;
+}
+.plus_icon{
+  background-color: #ebe9e9;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  text-align: center;
 }
 
 /* padding left css*/
@@ -188,3 +203,4 @@ body {
 .pad_left_common_18px {
   padding-left: 8px;
 }
+
