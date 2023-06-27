@@ -43,7 +43,7 @@ body {
 }
 
 .icons_color{
-  color: grey;
+  fill: rgb(161, 20, 20);
 }
 
 .menu_text_font_style {
@@ -170,6 +170,10 @@ body {
 .vertical-divider {
   border-right: 1px solid #c9c9c9;
   height: 100%;
+}
+
+.space-between-element {
+  justify-content: space-between;
 }
 
 /* padding left css*/
