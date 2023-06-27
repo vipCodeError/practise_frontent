@@ -21,9 +21,10 @@ body {
 }
 
 .rounded-card {
+  display: flex;
   position: relative;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   height: 95%;
   width: 100%;
   margin-top: 15px;
@@ -181,14 +182,15 @@ body {
 
 .plus_icon img{
   width: 8px;
-  margin-bottom: 9px;
 }
 .plus_icon{
   background-color: #ebe9e9;
   border-radius: 50%;
   height: 16px;
   width: 16px;
-  text-align: center;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 /* padding left css*/
@@ -204,3 +206,40 @@ body {
   padding-left: 8px;
 }
 
+/* Main Part */
+
+.main_part{
+  margin: 30px;
+}
+
+.main_display{
+  display: flex;
+}
+
+.main_icon{
+  background-color: #ebe9e9;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para_size{
+  font-size: 14px;
+  font-weight: 400;
+}
+.para_color{
+  color: #8c8c8c;
+}
+
+.hr_line{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/* margaret_itmes */
+
+.margaret_itmes .item_display{
+  display: flex;
+}
