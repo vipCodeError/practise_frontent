@@ -206,6 +206,9 @@ body {
   padding-left: 8px;
 }
 
+
+
+
 /* Main Part */
 
 .main_part{
@@ -214,8 +217,13 @@ body {
 
 .main_display{
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-
+.para_margin{
+  margin-top: 17px;
+  margin-right: 10px;
+}
 .main_icon{
   background-color: #ebe9e9;
   border-radius: 50%;
@@ -226,8 +234,8 @@ body {
   justify-content: center;
 }
 .para_size{
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 11px;
+  font-weight: 500;
 }
 .para_color{
   color: #8c8c8c;
@@ -240,6 +248,27 @@ body {
 
 /* margaret_itmes */
 
-.margaret_itmes .item_display{
+.margaret_itmes, .item_display{
   display: flex;
+}
+
+.card_height{
+  height: 60px;
+}
+.item_height{
+  height: 25px;
+  font-size: 12px;
+}
+.item_display h5{
+  font-size: small;
+  font-weight: bold;
+}
+.item_display img{
+  height: 10px;
+}
+
+
+/* vertival line css */
+.vl{
+  border-right: 1px solid #c9c9c9;
 }
