@@ -240,6 +240,12 @@ body {
 
 /* margaret_itmes */
 
-.margaret_itmes {
-  display: flex;
+.margaret_itmes .item_display {
+  display: inline-flex;
+  align-items: center;
+}
+
+.card_desc {
+  display: inline-flex;
+    flex-direction: column;
 }
