@@ -248,6 +248,7 @@ body {
 
 /* margaret_itmes */
 
+.margaret_itmes {
 .margaret_itmes, .item_display{
   display: flex;
 }
