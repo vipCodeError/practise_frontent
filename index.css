@@ -425,6 +425,11 @@ body {
   align-items: center;
   margin-top: 10px;
 }
+.time_desc span{
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 3px;
+}
 .height_adj{
   height: 31px;
   padding-bottom: 11px;
