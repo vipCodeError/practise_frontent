@@ -371,7 +371,7 @@ body {
 .performance_desc{
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   align-items: center;
 }
@@ -412,7 +412,97 @@ body {
 .time_desc img, .dotted img{
   height: 10px;
 }
-.margin_desc{
-  margin-top: 15px;
-  margin-bottom: 15px;
+.progress_time_desc{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.time_desc{
+  display: flex;
+  height: 31px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.height_adj{
+  height: 31px;
+  padding-bottom: 11px;
+}
+.hold_height{
+  height: 31px;
+}
+.done_height{
+  height: 31px;
+  padding-top: 20px;
+}
+.product_margin{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.vertical{
+  border-right: 1px solid #8c8c8c;
+  height: 100%;
+}
+
+
+/* Portfolio CSS */
+
+.profile_div{
+  width: 85%;
+  height: 220px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.profile_details img{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 3px solid #fff;
+  margin-left: 110px;
+}
+.active_or_not{
+  width: 13px;
+  height: 13px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #ff2400;
+  margin-left: 160px;
+  margin-top: -15px;
+  position: absolute;
+  z-index: 1;
+}
+.portfolio_call_Details{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.portfolio_icon{
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+}
+.portfolio_icon img{
+  height: 18px;
+}
+.portfolio_img_adj{
+  align-items: center;
+}
+.profile_name{
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: 95px;
+  margin-top: 8px;
+}
+.portfolio_id{
+  font-size: 13px;
+  margin-left: 115px;
 }
