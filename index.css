@@ -319,7 +319,7 @@ body {
 
 .card_desc {
   display: inline-flex;
-    flex-direction: column;
-    align-self: center;
-    margin-left: 10px;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 10px;
 }
