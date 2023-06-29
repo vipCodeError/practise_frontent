@@ -241,6 +241,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 19px;
 }
 .para_size{
   font-size: 11px;
@@ -307,9 +308,11 @@ body {
   font-weight: 600;
   margin-left: 10px;
 }
-/* .item_display img{
-  height: 10px;
-} */
+.up_things{
+  color: #d10000;
+  font-weight: 600;
+  margin-left: 10px;
+}
 
 
 .vl {
@@ -322,4 +325,94 @@ body {
     flex-direction: column;
     align-self: center;
     margin-left: 10px;
+}
+
+
+/* main_bottom_div */
+
+.main_bottom_div{
+  margin: 30px;
+}
+.main_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_div_item{
+  display: inline-flex;
+  align-items: center;
+}
+.horizontal_line{
+  border-right: 1px solid #d8d8d8;
+  height: 20px;
+  margin: 20px;
+}
+.current_div_title{
+  font-size: 15px;
+  font-weight: 800;
+}
+.current_font_size{
+  font-size: 12px;
+  font-weight: 700;
+}
+.week{
+  width: 70px;
+  border: 1px solid #d8d8d8;
+  padding: 4px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.down_arrow_height{
+  height: 12px;
+}
+
+/* current task details */
+.performance_desc{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.product_icon{
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #87ceeb;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+.product_icon img{
+  height: 20px;
+}
+.product_review{
+  display: flex;
+}
+.product_review span{
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  font-weight: 500;
+}
+.progress_icon_img img{
+  height: 30px;
+}
+.progress_icon_img{
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  font-weight: 500;
+}
+.time_desc img, .dotted img{
+  height: 10px;
+}
+.margin_desc{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
