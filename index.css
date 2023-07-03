@@ -10,8 +10,9 @@ ligh blue #e4eefb
 
 html,
 body {
-  height: 100%;
+  height: auto;
   background-color: #8c8c8c;
+  overflow-y: scroll;
 }
 
 body {
@@ -62,6 +63,7 @@ body {
 
 .menu_items {
   padding-top: 20px;
+  margin-top: 50px;
 }
 
 .menu_text_align {
@@ -148,7 +150,7 @@ body {
 }
 
 .information {
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .information ul li {
@@ -166,6 +168,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
+  margin-top: 150px;
 }
 
 .vertical-divider {
@@ -487,75 +490,6 @@ body {
   height: 100%;
 }
 
-
-/* Portfolio CSS */
-
-.profile_div {
-  width: 85%;
-  height: 220px;
-  background-color: #f1f1f1;
-  margin: 10px;
-  border-radius: 15px;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-.profile_details img {
-  border-radius: 50%;
-  height: 70px;
-  width: 70px;
-  border: 3px solid #fff;
-  margin-left: 110px;
-}
-
-.active_or_not {
-  width: 13px;
-  height: 13px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  background-color: #ff2400;
-  margin-left: 157px;
-  margin-top: -15px;
-  position: absolute;
-  z-index: 1;
-}
-
-.portfolio_call_Details {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.portfolio_icon {
-  width: 37px;
-  height: 37px;
-  border-radius: 50%;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 5px;
-}
-
-.portfolio_icon img {
-  height: 18px;
-}
-
-.portfolio_img_adj {
-  align-items: center;
-}
-.profile_name{
-  font-size: 15px;
-  font-weight: 800;
-  margin-left: 95px;
-  margin-top: 8px;
-}
-
-.portfolio_id {
-  font-size: 13px;
-  margin-left: 115px;
-}
-
 .cards-items-rows {
   display: flex;
   align-items: center;
@@ -567,6 +501,7 @@ body {
   width: 40%;
 }
 
+
 /* Activity CSS */
 
 .activity_div{
@@ -574,7 +509,6 @@ body {
   margin-top: 25px;
 }
 .activity_div p{
-  width: 85%;
   text-align: center;
   border-bottom: 1px solid #c9c9c9;
   line-height: 0.1em;
@@ -624,3 +558,106 @@ body {
   margin-top: 25px;
   margin-left: 20px;
 }
+
+/* Performance Graph */
+
+.performance_Graph{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.performance_date img{
+  height: 9px;
+}
+.performance_date{
+  width: 85px;
+  border: 1px solid none;
+  padding: 4px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+.performance_div span{
+  font-size: 15px ;
+  font-weight: 800;
+}
+.performance_date span{
+  font-size: 11px;
+  font-weight: 500;
+}
+
+#myChart{
+  margin-left: 20px;
+  padding-right: 8px;
+}
+
+/* Portfolio CSS */
+
+.profile_div {
+  height: 220px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  padding-top: 20px;
+  text-align:center ;
+}
+
+.profile_details img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 3px solid #fff;
+}
+
+.active_or_not {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #ff2400;
+  text-align: center;
+  position: relative;
+  left: 135px;
+  bottom: 16px;
+}
+
+.portfolio_call_Details {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.portfolio_icon {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.portfolio_icon img {
+  height: 18px;
+}
+
+.portfolio_img_adj {
+  align-items: center;
+}
+.profile_name{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.portfolio_id {
+  font-size: 13px;
+}
+
+

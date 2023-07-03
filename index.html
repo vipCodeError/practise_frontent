@@ -19,6 +19,7 @@
     <!--FontAwesome Link-->
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 
 <body>
@@ -102,7 +103,7 @@
 
             <!-- Main Body -->
             <div class="col-lg-6 col-md-6 ">
-
+                
                 <div class="main_part">
                     <!--Margaret part-->
                     <div class="margaret_part main_display">
@@ -189,6 +190,17 @@
                     <hr class="hr_line">
                 </div>
 
+                <!--Performance Graph-->
+                <div class="performance_Graph">
+                    <div class="performance_div">
+                        <Span>Performance</Span>
+                    </div>
+                    <div class="performance_date">
+                        <span>01-07 May</span>
+                        <img src="images/main_bottom_img/down-arrow_blank.svg" alt="">
+                    </div>
+                </div>
+                <canvas id="myChart" style="width:100%;max-width:630px; height: 250px;"></canvas>
 
                 <!-- Current Task Part-->
                 <div class="main_bottom_div">
@@ -213,7 +225,7 @@
                             <img src="images/main_bottom_img/down-arrow_blank.svg" alt="" class="down_arrow_height">
                         </div>
                     </div>
-
+                    
                     <div class="performance_desc">
                         <div class="current_card_desc">
                             <div class="product_review">
@@ -303,8 +315,9 @@
                 <div class="profile_div">
                     <div class="profile_details">
                         <img src="images/portfolio_img/profile.jpg" alt="">
+                        <div class="active_or_not"></div>
                     </div>
-                    <div class="active_or_not"></div>
+                    
                     <div class="profile_name">
                         <span>Manish Tiwari</span>
                     </div>
@@ -364,6 +377,41 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
+
+   <!--Java Script graph--> 
+   <script>
+    var xyValues = [
+      {x:50, y:7},
+      {x:60, y:8},
+      {x:70, y:8},
+      {x:80, y:9},
+      {x:90, y:9},
+      {x:100, y:9},
+      {x:110, y:10},
+      {x:120, y:11},
+      {x:130, y:14},
+      {x:140, y:14},
+      {x:150, y:15}
+    ];
+    
+    new Chart("myChart", {
+      type: "scatter",
+      data: {
+        datasets: [{
+          pointRadius: 4,
+          pointBackgroundColor: "rgb(0,0,255)",
+          data: xyValues
+        }]
+      },
+      options: {
+        legend: {display: false},
+        scales: {
+          xAxes: [{ticks: {min: 40, max:160}}],
+          yAxes: [{ticks: {min: 6, max:16}}],
+        }
+      }
+    });
+    </script>    
 </body>
 
 </html>
