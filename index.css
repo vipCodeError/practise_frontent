@@ -21,12 +21,34 @@ body {
   font-family: 'Poppins';
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #b3b3b3 #f0f0f0;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f0f0f0;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #b3b3b3;
+    border-radius: 13px;
+    border: 0px solid #ededed;
+  }
+
 .rounded-card {
   display: flex;
   position: relative;
   /* align-items: center;
   justify-content: center; */
-  height: 90%;
+  height: 94vh;
   width: 100%;
   margin-top: 15px;
   border-radius: 18px;
@@ -567,7 +589,7 @@ body {
 .chat_div{
   margin-top: 40px;
   margin-left: 20px;
-  height: 55%;
+  height: 42vh;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -829,6 +851,10 @@ body {
 .user_input_div{
   display: flex;
   margin-top: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  left: 16px;
 }
 .user_input{
   display: flex;
@@ -854,13 +880,13 @@ body {
   justify-content: space-between;
 }
 .user_input_para p{
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   margin-left: 10px;
   color: #9c9c9c;
 }
 
 .second_part{
-  height: 90%;
+  height: 100%;
   overflow-y: auto;
 }
