@@ -26,7 +26,7 @@ body {
   position: relative;
   /* align-items: center;
   justify-content: center; */
-  height: 95%;
+  height: 90%;
   width: 100%;
   margin-top: 15px;
   border-radius: 18px;
@@ -523,6 +523,9 @@ body {
   background-color: #fff;
   padding: 0 10px;
 }
+.floyd_icon{
+  position: relative;
+}
 
 .floyd_icon img{
   width: 37px;
@@ -564,6 +567,9 @@ body {
 .chat_div{
   margin-top: 40px;
   margin-left: 20px;
+  height: 55%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* Performance Graph */
@@ -674,13 +680,14 @@ body {
   border-radius: 50%;
   background-color: #ff2400;
   position: absolute;
-  right: 380px;
-  bottom: 442px
+  right: 0px;
+  bottom: 8px;
 }
 .reply_div{
   display: flex;
   justify-content: end;
   margin-top: 20px;
+  margin-right: 10px;
 }
 
 .chat_reply{
@@ -689,6 +696,7 @@ body {
   border-radius: 10px;
   background-color: #e2e8ff;
   display: flex;
+  position: relative;
 }
 .chat_reply p{
   font-size: 13px;
@@ -702,8 +710,8 @@ body {
   border-radius: 16px;
   border: 2px solid #fff;
   position: absolute;
-  right: 100px;
-  bottom: 313px;
+  left: 187px;
+  top: 78px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -720,8 +728,11 @@ body {
     border-radius: 50%;
     background-color: #04aa0c;
     position: absolute;
-    right: 380px;
-    bottom: 255px;
+    right: 0px;
+    bottom: 8px;
+}
+.guy_icon{
+  position: relative;
 }
 .guy_icon img{
   width: 37px;
@@ -804,6 +815,7 @@ body {
   display: flex;
   justify-content: end;
   margin-top: 20px;
+  margin-right: 10px;
 }
 .kris_active{
   width: 10px;
@@ -811,8 +823,8 @@ body {
   border-radius: 50%;
   background-color: #ff2400;
   position: absolute;
-  right: 380px;
-  bottom: 92px;
+  right: 0px;
+  bottom: 8px;
 }
 .user_input_div{
   display: flex;
@@ -846,4 +858,9 @@ body {
   font-weight: 500;
   margin-left: 10px;
   color: #9c9c9c;
+}
+
+.second_part{
+  height: 90%;
+  overflow-y: auto;
 }
